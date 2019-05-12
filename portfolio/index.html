@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Akvaariumi andmed</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="../css/style.css?v=1.0">
+
+</head>
+
+<body>
+  <script src="../js/scripts.js"></script>
+    <header class="header">
+        <h1 class="logo"><a href="\drawgraphs">Akvaarium</a></h1>
+        <ul class="main-nav">
+            <li><a href="\drawgraphs">Graafikud</a></li>
+            <li><a href="\about">Meist</a></li>
+            <li><a href="\portfolio">Portfoolio</a></li>
+        </ul>
+    </header> 
+    <div class="main-container">
+        <h1>Portfoolio</h1>
+        <div class="images">
+        
+        <?php
+       $dir    = 'pics/';
+    $files  = scandir($dir);
+    $images = array();
+
+
+    foreach($files as $file) 
+    {
+        if(fnmatch('*.png',$file)) 
+        {
+            $images[] = $file;
+        }
+    }
+
+    $image_count = count($images);
+    $count_each_column = ceil($image_count/4);
+
+    echo '<div style="width:100%; max-width:950px; margin:0 auto;">';
+    $count = 0;
+    foreach($images as $image) 
+    {
+        $count+=1;
+        if($count==1)
+        {
+            echo '<div class="box boxgallery">';
+        }
+
+            echo '<img src="pics/'.$image.'" />';
+
+        if($count>=$count_each_column)
+        {
+            $count=0;
+            echo '</div>';
+        }
+    }
+
+    if($count>0)
+    {
+        echo '</div>';
+    }
+    echo '</div>';
+        ?>
+        </div>
+
+    </div>
+</body>
+</html>
