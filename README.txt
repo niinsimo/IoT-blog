@@ -1,3 +1,5 @@
+Töötav leht - https://ssstuff.000webhostapp.com/drawgraphs/
+
 Sisendiks CSV-andmestik aja ning vähemalt kahe tunnusega. Soovitavalt oma rühma mõõdikutest ning reaalajas täienev. Töö juurde kuuluvad järgmised etapid:
 
 - Leht parameetritele vastava joonisega. Tunnuse joondiagramm. Tunnuse tulpdiagrammid perioodide kaupa koos standardvea (SE) joontega. Karpdiagrammid perioodide kaupa. Arvulised andmed perioodi kohta - miinimum, maksimum, aritmeetiline keskmine, mediaan, alumine ja ülemine kvatiil. Libiseva keskmise joondiagramm määratud arvu mõõtmiste või aja kaupa. Korrelatsioon kahe tunnuse vahel määratud perioodil. XY diagramm koos periooditi erinevalt märgitud punktidega. 
