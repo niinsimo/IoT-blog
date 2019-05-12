@@ -1,5 +1,6 @@
-Sisendiks CSV-andmestik aja ning vähemalt kahe tunnusega. Soovitavalt oma rühma mõõdikutest ning reaalajas täienev. Töö juurde kuuluvad järgmised etapid:
-- Leht parameetritele vastava joonisega. Tunnuse joondiagramm. Tunnuse tulpdiagrammid perioodide kaupa koos standardvea (SE) joontega. Karpdiagrammid perioodide kaupa. Arvulised andmed perioodi kohta - miinimum, maksimum, aritmeetiline keskmine, mediaan, alumine ja ülemine kvatiil. Libiseva keskmise joondiagramm määratud arvu mõõtmiste või aja kaupa. Korrelatsioon kahe tunnuse vahel määratud perioodil. XY diagramm koos periooditi erinevalt märgitud punktidega. 
-- Ajaveebi koostamise leht, kus kasutaja saab määrata esitatava joonise tüübi, seal kasutatavate andmete ajavahemiku (reaalajas andmete puhul nt. viimane päev, viimane nädal) ja perioodi pikkuse (nt. 1 tund). Andmejoonisele lisatakse kommentaar ning see jääb sissekandena ajaveebi.
-- Ajaveebide juhtleht, kus saab näha loetelu olemasolevatest ajaveebidest ning teha uusi. 
-Ülesande võib lahendada kuni kolmekesi. Iga liikme kohta peab olema realiseeritud vähemalt kaks joonisetüüpi.
+Sisendiks CSV-andmestik aja ning vÃ¤hemalt kahe tunnusega. Soovitavalt oma rÃ¼hma mÃµÃµdikutest ning reaalajas tÃ¤ienev. TÃ¶Ã¶ juurde kuuluvad jÃ¤rgmised etapid:
+
+- Leht parameetritele vastava joonisega. Tunnuse joondiagramm. Tunnuse tulpdiagrammid perioodide kaupa koos standardvea (SE) joontega. Karpdiagrammid perioodide kaupa. Arvulised andmed perioodi kohta - miinimum, maksimum, aritmeetiline keskmine, mediaan, alumine ja Ã¼lemine kvatiil. Libiseva keskmise joondiagramm mÃ¤Ã¤ratud arvu mÃµÃµtmiste vÃµi aja kaupa. Korrelatsioon kahe tunnuse vahel mÃ¤Ã¤ratud perioodil. XY diagramm koos periooditi erinevalt mÃ¤rgitud punktidega. 
+- Ajaveebi koostamise leht, kus kasutaja saab mÃ¤Ã¤rata esitatava joonise tÃ¼Ã¼bi, seal kasutatavate andmete ajavahemiku (reaalajas andmete puhul nt. viimane pÃ¤ev, viimane nÃ¤dal) ja perioodi pikkuse (nt. 1 tund). Andmejoonisele lisatakse kommentaar ning see jÃ¤Ã¤b sissekandena ajaveebi.
+- Ajaveebide juhtleht, kus saab nÃ¤ha loetelu olemasolevatest ajaveebidest ning teha uusi. 
+Ãœlesande vÃµib lahendada kuni kolmekesi. Iga liikme kohta peab olema realiseeritud vÃ¤hemalt kaks joonisetÃ¼Ã¼pi.
